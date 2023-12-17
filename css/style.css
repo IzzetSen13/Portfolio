@@ -302,7 +302,8 @@ b {
   height: 700px; */
   padding: 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  /* justify-content: space-around; */
   align-items: center;
   /* flex-direction: column; */
   flex-direction: row;
@@ -311,7 +312,7 @@ b {
 
 .projectInformationContainer {
   /* width: 100%; */
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   row-gap: 16px;
@@ -320,11 +321,24 @@ b {
 
 .projectImageContainer {
   /* width: 100%; */
-  width: 35%;
+  /* padding: 50px; */
+  width: 40%;
+  display: flex;
+  justify-content: center;
 }
 
+.projectImageContainerMobile {
+  height: 430px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
 .projectImageContainer img {
-  width: 100%;
+  width: 90%;
+}
+
+.projectImageContainerMobile img {
+  height: 100%;
 }
 
 .projectRole {
